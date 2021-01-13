@@ -1,0 +1,104 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    color: #000000;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.container {
+    margin: 0 5rem;
+}
+
+.header-content {
+    display: flex;
+    padding: 5rem;
+}
+
+.header-content img {
+    border-radius: 50%;
+    height: 33rem;
+}
+
+.header-content .header-text .about {
+    margin: 0 19rem;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 7rem;
+    margin: 4rem;
+}
+
+nav {
+    display: inline-block;
+    margin: 4rem;
+}
+
+nav a {
+    padding: 1.1rem 2rem 1.6rem 2rem;
+    height: 4.5rem;
+    width: 17rem;
+    border-radius: 2rem;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    margin: 0 8.5rem;
+}
+
+.plan-your-visit {
+    background-color: #FF764E;
+}
+
+.learn-about-the-park {
+    background-color: #5ED3EB;
+}
+
+.get-involved {
+    background-color: #FFCD69;
+}
+
+.main-text {
+    background-color: #DDB9A3;
+    padding: .1rem 3rem .2rem 3rem;
+}
+
+nav a, .main-text {
+    color: #ffffff;
+}
+
+.details {
+    display: block;
+    margin: 0 40rem 4rem 40rem;
+}
+
+.details .content-row {
+    margin: 2rem 0 6rem 0;
+}
+
+.details .content-row img {
+    width: 15rem;
+}
+
+.details .content-row p {
+    font-size: 1.6rem;
+    width: 34rem;
+    display: block;
+    margin: 1rem auto;
+}
+
+.details .content-row p .bold {
+    font-weight: 700;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+footer .footer-image {
+    background: url(./assets/footer_img.jpg);
+    height: 30rem;
+}
